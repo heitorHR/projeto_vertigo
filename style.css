@@ -120,7 +120,25 @@ main {
 .login>p {
     color: var(--gray--600);
 }
-.login > p a{
+
+.login>p a {
     font-weight: 700;
     font-size: 1rem;
+}
+
+@media(min-width:1000px) {
+    header {
+        background: none;
+        justify-content: flex-start;
+        padding-inline: 7rem;
+    }
+
+    header img {
+        width: 10rem;
+    }
+
+    main {
+        padding-inline: 7rem;
+    }
+
 }
